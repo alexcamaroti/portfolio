@@ -1,0 +1,82 @@
+@font-face {
+    font-family: vareda;
+    src: url(fonts/VarelaRound-Regular.ttf);
+  }
+
+body, html, #main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: vareda, sans-serif;
+  }
+
+#main .main-left {
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#main .main-right {
+    background-color: green;
+    height: 100%;
+    width: 50%;
+    float: left;
+    
+}
+
+#main .main-right .menu {
+    width: 98%;
+    height: 50px;
+    background-color: red;
+    margin: 8px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background: #fff;
+}
+
+#main .main-right .menu ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+#main .main-right .menu ul.nav li {
+    float: left;
+}
+
+#main .main-right .menu ul.nav li .list-item {
+    display: block;
+    text-align: center;
+    margin: 4px 6px;
+    padding: 12px 44px;
+    text-decoration: none;
+    color: #1ba49c;
+    font-size: 16px;
+    /* First we need to help some browsers along for this to work.
+    Just because a vendor prefix is there, doesn't mean it will
+    work in a browser made by that vendor either, it's just for
+    future-proofing purposes I guess. */
+    -o-transition:color .1s ease-out, background 0.5s ease-in;
+    -ms-transition:color .1s ease-out, background 0.5s ease-in;
+    -moz-transition:color .1s ease-out, background 0.5s ease-in;
+    -webkit-transition:color .1s ease-out, background 0.5s ease-in;
+    /* ...and now for the proper property */
+    transition:color .1s ease-out, background 0.5s ease-in;
+    border-radius: 23px;
+  }
+
+  #main .main-right .menu ul.nav li .list-item:hover {
+      box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+      border-color: rgba(223,225,229,0);
+      background: #1ba49c;
+      padding-bottom: 12px;
+      color: white;
+  }
+
+  #main .main-right .menu ul.nav li .list-item:first-child:hover,
+  #main .main-right .menu ul.nav li .list-item:hover:after {
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+  }
