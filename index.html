@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <title>Alex Camaroti</title>
 </head>
 <body>
@@ -21,10 +22,123 @@
                     <li><a class="list-item" href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="content">
+            <div class="content-me">
 
+                <h2>Sobre mim</h2>
+                <p>
+                    Desde que me formei em 2014, começando minha jornada como desenvolvedor back-end, tenho trabalhado para grandes empresas e clientes, como Accenture, Sky e Oi e também como freelancer ao longo do tempo. 
+                </p>
+                <p>Atualmente, trabalho como Analista Desenvolvedor para a Accenture, me envolvo diariamente com pessoas talentosas. No meu dia-a-dia, construo serviços digitais que são utilizados como ferramentas de negócios pelos nossos clientes. Sou confiante no que faço, feliz por trabalhar em equipes com potencial, amo minha profissão.</p>
+                <p>Quando o foco não é trabalho, gosto de conhecer locais que nunca visitei antes, inclusive se envolver alguma comida diferente. Sou apaixonado por culinária e de vez em quando também arrisco a tentar novas receitas. Minha melhor receita até o momento, é o brigadeirão.</p>
+                <p>No geral sou uma pessoa calma, um bom ouvinte, sempre gosto de aprender algo com as pessoas. Acredito que cada indivíduo possui qualidades únicas. Gosto de reconhecer essas qualidades e aprender o melhor delas. Ao mesmo tempo que aprendo, também ensino. É assim que sigo minha vida. </p>
             </div>
+            <div class="content-experiences">
+                    <h2>Experiencias</h2>
+                    <h3>Projetos Pessoais</h3>
+                    <div class="experience">
+                            <p><span class="experienceDate">Novembro de 2018.</span> Desenvolvi uma aplicação com foco analise de pessoas e formações em determinadas regiões do Brasil. Os dados são armazenados utilizando elasticsearch como database integrado com spring boot e thymeleaf spring boot. A versão utilizada no momento é a 2.4.6 do elasticsearch, em breve subirei uma aplicação com a versão 6 do elasticsearch. Os dados são analisados utilizando o Kibana para ambas as versões e o plugin kopf para a versão 2.4.6. Mais informações do código no meu perfil github.
+                            </p>
+                    </div>
+                    <div class="experience">
+                            <p><span class="experienceDate">Outubro de 2018.</span> Desenvolvi uma aplicação para gerenciamento de convidados numa lista vip. O sistema tem integração com um serviço de envio de e-mails, no back-end é utilizado java spring boot, maven, no front-end thymeleaf spring boot, e oracle database para armazenamento de dados. O servidor http definido para o projeto foi o jetty. Mais informações do código no meu perfil github.
+                            </p>        
+                    </div>
+                    <h2>Profissional</h2>
+                    <div class="experience">
+                            <p class="role"><b>Analista Desenvolvedor</b></p>
+                            <p><span class="company"><b>Accenture Brasil</b> <span class="duration"><b>Tempo:</b> Até hoje.</span></span></p>
+                            <p><span class="experienceDate"></span></p>
+                        </div>
+                    <div class="experience">
+                        <p class="role"><b>Analista Desenvolvedor</b></p>
+                        <p><span class="company"><b>Accenture Brasil</b></span></p>
+                        <p><span class="experienceDate">Setembro de 2015 à Janeiro de 2017.</span> Iniciei minhas atividades trabalhando para o cliente <b>SKY</b>. Fiquei responsável pela resolução de chamados no sistema b2b. Juntamente com a minha equipe atingimos a meta de diminuição dos chamados que eram criados sobre o mesmo problema em mais de 80% no período que fui alocado no projeto. As correções eram feitas em C# e Asp.net Razor. Posteriormente também fiquei responsável por avaliar o recebimento de entrega de demanda de outras frentes que ficavam responsável por correções na parte de sistema de pagamento do sistema. 
+                            Participei de um treinamento que utilizava AngularJS 1.4, NodeJS e MongoDB.
+                            Após isso, participei do projeto que estava sendo migrado de Manila, Filipinas, para Recife, cliente <b>Oi</b>. Fui o principal responsável pelo desenvolvimento das demandas Front-End utilizando: JSP, JSF, JSON, HTML 5, CSS3, Javascript, JQuery, Boostrap e Semantic-UI, e também desenvolvendo soluções na parte Back-end e no aperfeiçoamento da arquitetura utilizando: Weblogic, Websphere, Tomcat, Jenkins e Nexus e a base de dados Oracle 11g e PostgreSQL. Também criava toda a documentação da funcionalidade criada/implementada, participava de reuniões SCRUM, e desenvolvi algumas demandas DevOps em java.
+                            </p>
+                    </div>
+                    <div class="experience">
+                            <p class="role"><b>Desenvolvedor</b></p>
+                            <p><span class="company"><b>PHDM Tecnologia</b> </span></p>
+                            <p><span class="experienceDate">Janeiro de 2014 à Dezembro de 2014.</span>
+                            Trabalhei em uma pequena empresa de software onde o meu cliente era uma imobiliária. O sistema foi desenvolvimento todo em .NET, fiquei responsável por criar a estrutura base do sistema, pois peguei o mesmo do início. Ferramentas, linguagem e frameworks utilizados: Visual Studio, C#, Lambda, Linq e NHibernate.
+                            </p>
+                    </div>
+                    <div class="experience">
+                            <p class="role"><b>Trainee em Sistemas TOTVS</b></p>
+                            <p><span class="company"><b>LaboRH Serviços Empresariais</b></span></p>
+                            <p><span class="experienceDate">Fevereiro de 2013 à Julho de 2013.</span>
+                                Como estagiário, fiquei responsável por gerenciar o banco de dados (SQL Server) aplicando triggers, procedures e ajustando functions conforme a demanda solicitada. Na parte de customer service, identificava as necessidades dos clientes para atendê-los de forma eficaz. Trabalhei via chamados onde o foco de solução era o próprio sistema TOTVs usados pelos funcionários da empresa; Atividades gerais envolviam serviços da própria empresa fornecidos aos clientes, incluindo serviços de e-mail e criação de contas do Windows.                                
+                            </p>
+                    </div>
+            </div>
+            <div id="content-achievements" class="content-achievements">
+                <h2>Conquistas</h2>
+                <div class="row">
+                        <div id="achievement-graduation" class="achievement">
+                                <span style="font-size: 4em; color: #1ba49c;">
+                                    <i class="fa fa-graduation-cap"></i>
+                                </span>
+                                <p class="description">Graduação em Análise e Desenvolvimento de Sistemas</p>
+                        </div>
+                        <div id="achievement-abcollege" class="achievement">
+                                <span style="font-size: 4em; color: #1ba49c;">
+                                    <i class="fa fa-hat-wizard"></i>
+                                </span>
+                                <p class="description"> Estudos de Inglês - Academic Bridge College - Ireland</p>
+                        </div>
+                        <div id="achievement-ielts" class="achievement">
+                                <span style="font-size: 4em; color: #1ba49c;">
+                                    <i class="fab fa-pied-piper-hat"></i>
+                                </span>
+                                <p class="description">IELTS Official Online Course Titulo: Usuário Competente</p>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="achievement">
+                                <span style="font-size: 4em; color: #1ba49c;">
+                                    <i class="fas fa-globe-europe"></i>
+                                </span>
+                                <p class="description">Intercambista na Irlanda. Mais de um ano convivendo com a cultura local.</p>
+                        </div>
+                        <div id="achievement-cp" class="achievement">
+                                <span style="font-size: 4em; color: #1ba49c;">                                    
+                                    <i class="fas fa-award"></i>
+                                </span>
+                                <p class="description">Participação no Programa Startup & Makers Camp - Ideias inovadoras</p>
+                        </div>
+                </div>
+            </div>
+            <div class="content-contact">
+                <h2>Contato</h2>
+            <div class="row">
+                    <div id="contact-whatsapp" class="contact">
+                            <span style="font-size: 4em; color: #1ebea5;">
+                                    <i class="fab fa-whatsapp"></i>
+                            </span>
+                            <p class="description">+55 81 99917.3995</p>
+                    </div>
+                        <div id="contact-linkedin" class="contact">
+                                <span style="font-size: 4em; color: #006097;">
+                                        <i class="fab fa-linkedin-in"></i>
+                                </span>
+                                <p class="description">alex.camaroti</p>
+                        </div>
+                    <div id="contact-email" class="contact">
+                            <span style="font-size: 4em; color: #760685;">
+                                    <i class="fas fa-mail-bulk"></i>
+                            </span>
+                            <p class="description">acamaroti@gmail.com</p>
+                    </div>
+            </div>
+            </div>            
         </div>
     </div>    
+
+
+    <script>
+    window.location.hash = '#content-achievements';
+    </script>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
